@@ -111,7 +111,7 @@ This extension solves that by adding a **simple link management layer** directly
 
 ---
 
-## 4. Screenshots (Placeholders)
+## 4. Screenshots
 
 
 ### 4.1. Sales Order – External Documents Section
