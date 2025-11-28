@@ -30,7 +30,7 @@ table 50100 "External Document Link"
         {
             Caption = 'Description';
         }
-        field(7; CreatedBy; Guid)
+        field(7; CreatedBy; Code[50])
         {
             Caption = 'Created By';
         }
@@ -38,6 +38,7 @@ table 50100 "External Document Link"
         {
             Caption = 'Created At';
         }
+
     }
 
     keys
@@ -46,5 +47,12 @@ table 50100 "External Document Link"
         Key(TableDoc; TableID, DocumentNo) { }
     }
 
+    trigger OnInsert()
+    begin
+        if CreatedAt = 0DT then
+            CreatedAt := CurrentDateTime;
 
+        if CreatedBy = '' then
+            CreatedBy := UserId;
+    end;
 }

@@ -2,7 +2,7 @@
     "id": "52d1fccf-06b2-44f8-bf77-97ad07196d97",
     "name": "External Document Linker",
     "publisher": "Swilam",
-    "version": "1.0.0.0",
+    "version": "1.0.0.2",
     "brief": "Attach external document links to sales and purchase documents",
     "description": "Stores and opens external document links (SharePoint, OneDrive, web) from Sales and Purchase headers",
     "privacyStatement": "",
@@ -13,7 +13,7 @@
     "dependencies": [],
     "screenshots": [],
     "platform": "1.0.0.0",
-    "application": "26.5.38752.38944",
+    "application": "21.0.0.0",
     "idRanges": [
         {
             "from": 50100,
@@ -25,7 +25,7 @@
         "allowDownloadingSource": true,
         "includeSourceInSymbolFile": true
     },
-    "runtime": "15.0",
+    "runtime": "15.2",
     "features": [
         "NoImplicitWith"
     ]
